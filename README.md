@@ -1,87 +1,130 @@
-# 归一 · 一问一世界
+# 归一 · Guiyi Universe — One Question, One World
 
-**One Question, A Bigger You.** 一个基于 Three.js 的 3D 知识探索宇宙 Demo。
+### Don't hand learners an answer. Hand them a universe they can walk through. / 不直接给答案，而是生成一个可以走进去的宇宙。
 
-> 不是告诉你要不要学画画，而是带你到自己的答案那里去。
-> 看见不同，形成自己。
+**Completed Demo · 已完成小样演示** — a runnable 3D knowledge-exploration demo: ask one question, watch a universe of six floating islands rise from the sea, walk it with a small robot named Bloomy, and end with an answer that is *yours* — not the search engine's.
 
----
+一个可以运行的三维知识探索小样：提出一个问题，看六座浮岛从海面升起，和一个叫 **Bloomy** 的小机器人一起走完全程，最后得到一个属于你自己的答案——而不是搜索引擎的。
 
-## 产品核心思想
+**看见不同，形成自己。 See different perspectives; form your own understanding.**
 
-在 AI 可以回答几乎所有问题的时代，人真正需要的从来不只是答案：
+[How a visit unfolds / 五步旅程](#how-a-visit-unfolds--一次探索的五步) · [Six islands / 六座浮岛](#the-six-islands--六座浮岛) · [Bloomy / 陪伴](#bloomy--全程陪伴的-agent) · [Screenshots / 项目截图](#screenshots--项目截图) · [Technology / 技术](#technology--技术) · [Run / 运行](#run--运行) · [Honest status / 如实说明](#honest-status--如实说明)
 
-- 谁经历过它？
-- 谁和我想得不一样？
-- 我还没有看到什么？
+## Why build this? / 为什么做
 
-所以归一不做“更高效的问答机器”。你提出一个问题，它为你生成一个可以走进去的 3D 认知宇宙：不同的区域保存着不同的认知素材，一位叫 **Bloomy** 的小机器人陪你走完全程。最关键的奖励不是积分，而是——**看见不同，形成自己**。
+In an era when AI can answer almost any question, the scarce moves are no longer *finding* an answer. They are the questions a search box never asks:
 
-## 宇宙结构：六座浮岛
+在 AI 几乎能回答一切问题的时代，稀缺的不再是「找到答案」，而是搜索框从来不问的问题：
 
-| 区域 | 认知动作 | 它保存什么 | 在世界里的样子 |
-|---|---|---|---|
-| 来路 | 经历 | 真实的人怎样走过：起点、转折、现状 | 暖色坡地、樱花树、小屋、路牌 |
-| 此地 | 条件 | 你此刻面对的证据、资源与限制 | 白色数据体块、发光信息屏 |
-| 岔路 | 分歧 | 同一问题的不同走法与成立条件 | 红岩裂谷、分叉的双桥 |
-| 遇见 | 共鸣 | 经历过它的人：从业者、同好、导师 | 水上村屋、篝火、灯串 |
-| 未至 | 盲点 | 被忽略的未知方向 | 暗色森林、发光传送门 |
-| 成形（中央） | 整合 | 你的探索汇总成此刻的理解 | 白石平台、随理解生长的水晶 |
+- Who has actually lived it? / 谁真实经历过它？
+- Who thinks differently from me — and under what conditions is each view true? / 谁和我想得不一样——各自的观点在什么条件下成立？
+- What have I not seen yet? / 还有什么是我没看到的？
 
-## 核心玩法循环（五步）
+So Guiyi is deliberately **not** a faster Q&A machine. You hand it one question, and it generates a walkable 3D cognitive universe: different regions hold different kinds of cognitive material, and the key reward is not points — it is *seeing difference until your own understanding forms*.
+
+所以归一刻意**不做**更快的问答机器。你交给它一个问题，它为你生成一个可以走进去的三维认知宇宙：不同区域保存不同类型的认知素材；最关键的奖励不是积分，而是**看见不同，直到形成自己的理解**。
+
+## How a visit unfolds / 一次探索的五步
 
     提问 → 探索 → 对照 → 遇见 → 成形
 
-1. **提问**：海面很安静，只有一个输入框。输入你的问题（或选一个问题包）。Bloomy 帮你确认意图，然后整个宇宙从海面升起。
-2. **探索**：点击任意岛屿，Bloomy 沿航线飞过去，为你翻开这座岛的“认知卡片”。每张卡可以收下、可以贴上你的态度标签（认同 / 存疑 / 惊讶）。
-3. **对照**：在对照桌里任选两张已收集的卡并排比较。Bloomy 会指出两张卡的前提差异，但不裁决谁对。完成对照会让水晶加速生长。
-4. **遇见**：遇见岛的人物卡会反过来“追问你”一句——被真实的人追问，是这个世界里最贵的东西。
-5. **成形**：集齐四种认知动作与至少一次遇见后，中央水晶亮起。选择最多 3 张“最重要的发现”，写下**此刻**你的答案与还没想清楚的部分，生成一张可随时修改的成形卡。归一不是终结探索，而是形成此刻的理解。
+1. **Ask 提问** — the sea is quiet; there is one input box. Type your question (or tap a sample one). Bloomy confirms what you mean, and the universe rises from the water. / 海面很安静，只有一个输入框。写下你的问题（或选一个示例问题）。Bloomy 帮你确认意图，然后整个宇宙从海面升起。
+2. **Explore 探索** — click any island; Bloomy flies the route first and opens that island's interaction. Cards you collect can be kept and tagged with your stance: 认同 / 存疑 / 惊讶. / 点击任意岛屿，Bloomy 沿航线飞过去，为你翻开这座岛的专属交互。收下的卡片可以贴上态度标签：认同 / 存疑 / 惊讶。
+3. **Compare 对照** — put any two collected cards side by side. Bloomy points out the difference in their premises, but never judges who is right. / 把任意两张已收卡片并排比较。Bloomy 会指出两张卡的前提差异，但不裁决谁对。
+4. **Meet 遇见** — on the people island, a card turns around and asks *you* a question back. Being asked by someone who has lived it is the most expensive thing in this world. / 在遇见岛，人物卡会反过来「追问你」一句。被真实经历过的人追问，是这个世界里最贵的东西。
+5. **Form 成形** — once all five kinds of exploration are done, the central crystal lights up. Choose at most 3 most important discoveries, write your *current* answer and what is still unclear, and keep it as a revisable form card. Forming is not the end of exploration — it is a snapshot of your understanding, open to revision. / 集齐探索后中央水晶亮起。选出最多 3 张最重要的发现，写下**此刻**的答案与还没想清楚的部分，生成一张可随时修改的成形卡。成形不是探索的终结，而是理解的快照，可以继续修订。
 
-## Bloomy：全程陪伴的 Agent
+## The six islands / 六座浮岛
 
-一个头顶长着荧光绿小芽的电蓝小机器人，像一枚活起来的涂鸦贴纸。
+| Island / 岛屿 | Cognitive move / 认知动作 | Its own interaction / 专属交互 | What it looks like / 在世界里的样子 |
+| --- | --- | --- | --- |
+| 来路 · Where you come from | 经历 Experience | **故事小径 Story Trail** — light 3 story stones in order; each hides a real person's account of the road / 依序点亮 3 块故事石，每块石下是一段真实来路 | 暖色坡地、樱花树、小屋、路牌 Warm-orange slope, cherry trees, a small house |
+| 此地 · Where you stand | 条件 Conditions | **条件控制台 Condition Console** — flip 3 condition switches, then pull the summary lever / 翻动 3 个条件开关，拉下汇总杆 | 白色数据体块、发光信息屏 White data blocks, glowing screens |
+| 岔路 · Forked views | 分歧 Disagreement | **分岔桥 Fork Bridge** — turn the signpost, cross one bridge, and come back to see the other view / 转动路牌，过一座桥读彼岸之卡，可折返看另一条 | 红岩裂谷、分叉的双桥 Red-rock canyon, twin bridges |
+| 遇见 · Real people | 共鸣 Resonance | **篝火围坐 Campfire** — hear a person's story, answer their question back; the fire brightens as resonance grows / 听一段经历，回应对方的追问；火随共鸣变亮 | 水上村屋、篝火、灯串 Water village, campfire, string lights |
+| 未至 · Not yet | 盲点 Blind spots | **迷雾光门 Mist Gate** — disperse 3 patches of fog to find the directions you hadn't considered, then wake the green portal / 拨散 3 团迷雾，找到被忽略的方向，唤醒绿光门 | 暗色森林、发光传送门 Dark forest, a glowing portal |
+| 成形 · Become（中央 center） | 整合 Integration | **关联壁 Idea Wall** — place collected cards on the crystal's orbit, link pairs, and name the relation between them / 把卡片放上水晶轨道，两两连线并命名关系，织成思路网 | 白石平台、随理解生长的水晶 White platform, a crystal that grows with your understanding |
 
-- **陪伴**：你点哪座岛，它先飞过去等你；你读卡时它安静停在旁边；它记得你去过哪、存疑过什么。
-- **四种能力**（点击 Bloomy 呼出）：解释此地 · 比较观点 · 建议下一站 · 换个问题。
-- **五种状态**：待机（呼吸浮动）、移动（弹跳飞行）、检索（小芽旋转）、发现（惊叹）、等待（安静跟随）。
-- **有节制的引导**：只在关键节点说话，可一键开启“安静陪伴”。
+**Gamification without leaderboards / 没有排行榜的游戏化：** the crystal *is* the score — it grows and brightens with every card and comparison, and sprouts when understanding matures (echoing Bloomy's own sprout). Achievements are cognitive moves, not points: 足迹四境 · 看见不同 · 遇见他者 · 盲点之光 · 形成自己. The 未至之门 only reveals itself after you have explored enough elsewhere — blind spots must be earned. / 水晶就是分数——每收一张卡、每完成一次对照它就长大变亮，长到一定程度头顶发出新芽（与 Bloomy 呼应）。成就是认知动作而非积分。未至之门只在你探索足够多之后才显形——盲点需要被挣得。
 
-> Bloomy 陪你看见更多，让理解慢慢生长。
+## Bloomy / 全程陪伴的 Agent
 
-## 游戏化设计原则
+A small electric-blue robot with a glowing green sprout on its head — like a living doodle sticker.
 
-1. 一同生成世界，而不是先给答案。
-2. AI 替代社区会杀死社区；AI 应该激活社区、把人重新带向人。
-3. 游戏化的重点是探索、比较、连接，不是刷积分。
-4. 每个区域对应一种认知动作：经历、条件、分歧、盲点。
-5. 最关键的奖励是“看见不同，形成自己”。
+一个电蓝色、头顶荧光绿小芽的小机器人，像一枚活起来的涂鸦贴纸。
 
-具体机制：
+- **Companionship 陪伴：** it flies to an island before you, waits quietly while you read, and remembers where you have been and what you doubted. / 你点哪座岛它先飞过去；你读卡时安静等待；它记得你去过哪、存疑过什么。
+- **Four abilities 四种能力** (tap Bloomy to open): explain this place 解释此地 · compare viewpoints 比较观点 · suggest a next stop 建议下一站 · change the question 换个问题。
+- **Five states 五种状态：** idle breathing 待机呼吸 · bouncing flight 弹跳飞行 · sprout-spinning search 小芽旋转检索 · astonishment at discovery 发现惊叹 · quiet following 安静跟随。
+- **Restrained guidance 有节制的引导：** it speaks only at key moments, and a one-tap "quiet mode" keeps it silent. / 只在关键节点说话，可一键开启安静陪伴。
 
-- **水晶 = 理解的生长**：每收一张卡、每完成一次对照，中央水晶就长大一点、亮一点，长到一定程度头顶会发出新芽——与 Bloomy 呼应。
-- **贴纸 = 你的态度**：标记过的卡片以涂鸦贴纸形式留在世界里。
-- **成就 = 认知动作**：足迹四境 / 看见不同 / 遇见他者 / 盲点之光 / 形成自己。没有分数与排行榜。
-- **未至之门**：只有当你在来路、此地、岔路看过足够多，盲点才会向你显形——传送门会亮起。
+## Screenshots / 项目截图
 
-## 技术实现
+All screenshots live in [`docs/screenshots/`](docs/screenshots/). They were captured from a live session using the built-in local demo pack for the question 「AI 时代，还要学画画吗？」.
 
-- Three.js + Vite，纯浏览器运行，无后端。
-- 全程序化几何：岛屿、建筑、树木、水晶与 Bloomy 均由代码生成，可复用、可调参。
-- 风格化渲染：卡通渐变着色、硬边描边、接地软阴影、克制的发光。
-- 相机：等距感三分之四俯视，限制俯仰与距离，双击复位。
-- 交互手感遵循“预告 → 动作 → 接触 → 稳定”：岛屿升起、Bloomy 飞行、卡片收下都有过程感。
-- 进度自动存入 localStorage，可随时继续。
+所有截图都在 [`docs/screenshots/`](docs/screenshots/) 目录，来自一次真实运行，使用内置的本地演示问题包「AI 时代，还要学画画吗？」。
 
-## 运行
+1. ![Guiyi ask screen](docs/screenshots/01-ask.png)
+   **Ask · the quiet sea / 提问 · 安静的海** — one question card on the water: sample questions to tap, a box for your own, and the promise of the world: 把一个问题交给宇宙，它不会直接给你答案. / 海面上只有一张问题卡：可选示例问题，也可写下自己的问题。
 
-    npm.cmd install
-    npm.cmd run dev
+2. ![Guiyi universe overview](docs/screenshots/02-universe.png)
+   **The universe rises / 宇宙升起** — bridges radiate from the central 成形 crystal platform to islands holding different cognitive moves (来路 warm-orange with cherry trees, 此地 white data city, 遇见 golden water village). Top-left: your question card; top-right: the five-step journey; the small figure by the crystal is Bloomy. / 中央成形水晶向六座岛放射出栈桥；左上是当前问题卡，右上是五步旅程进度，水晶旁的小机器人是 Bloomy。
 
-打开 http://localhost:5173 。
+3. ![Lai story trail](docs/screenshots/03-island.png)
+   **来路 · Story Trail / 来路 · 故事小径** — the island's own interaction: light 3 story stones in order. The panel shows the trail hint, the 「规则引导 · 本地推导」 tag (this pack was generated by local rules, not the LLM), and an online re-plan button for when the backend is available. / 来路岛的专属交互：依序点亮 3 块故事石。右侧面板有引导文案、「规则引导 · 本地推导」标记（此问题包由本地规则生成，非大模型），以及后端可用时的「在线重规划」按钮。
 
-## 路线图
+4. ![A story stone lit with a card](docs/screenshots/04-card.png)
+   **A stone lit, a life opened / 石头点亮，一段人生翻开** — stone 1 opened the card of a 34-year-old illustrator who has drawn for twenty years, ending with a question back at the visitor: 她靠的是什么，是手上的功夫，还是眼里的判断？ — this is the 「遇见」 move arriving early: being asked by someone who has lived it. / 故事石一点亮后翻开插画师的经历卡，结尾向来访者反问一句——「遇见」的瞬间提前到来：被真实经历过的人追问。
 
-- 接入真实内容源（如知乎 API）：卡片由真实回答与真实答主驱动，遇见岛连向真实的人。
-- Bloomy 接入 LLM：解释与比较由真实检索结果生成，支持自然语言对话。
-- 共绘：多人共同维护的公共地图（社区治理层）。
+## Technology / 技术
+
+| Layer / 层级 | Technology / 技术 | What it does / 职责 |
+| --- | --- | --- |
+| 3D world / 三维世界 | Three.js r170 + Vite | Everything is procedural geometry — islands, bridges, trees, house, crystal and Bloomy are all generated in code, so the world is tunable and asset-free / 岛屿、桥、树、小屋、水晶与 Bloomy 全部由代码生成，可调参、零素材 |
+| Rendering / 渲染 | Custom toon shaders | Soft cartoon gradients, hard-edge outlines, grounded soft shadows, restrained glow / 卡通渐变、硬边描边、接地软阴影、克制的发光 |
+| Camera / 相机 | Custom rig | Isometric-feel ¾ view; pitch and distance clamped; double-click to reset / 等距感四分之三俯视，限制俯仰与距离，双击复位 |
+| Interaction / 交互手感 | Tween chains | Every island rise, Bloomy flight and card collection follows 预告 → 动作 → 接触 → 稳定 / 岛屿升起、飞行、收卡都有过程感 |
+| Progress / 进度 | `localStorage` | Saves your visit automatically; come back anytime / 自动存档，随时续玩 |
+| Content — online / 内容（在线） | Node.js API + Zhihu search + LLM (via OpenCodex; default model `amd/Qwen3.8-Flash-Next`) | Turns your question into a pack: cards of five types (story/fact/view/person/blind), real Zhihu sources, per-island plans, provenance record / 把问题转成问题包：五类卡片、知乎真实来源、六岛计划与来源记录 |
+| Content — offline / 内容（离线） | Local demo packs + rule-based generation | The full five-step loop runs with zero backend, so the demo works anywhere / 无任何后端也能完整跑通五步旅程 |
+
+## Run / 运行
+
+```bash
+npm install
+npm run dev        # open / 打开 http://localhost:5173
+```
+
+That is all a visitor needs — the demo content path works without any server. / 访客只需要这两行——演示内容无需任何服务端即可运行。
+
+**Optional online generation / 可选的在线生成：** a local Node API can generate question packs from Zhihu search + an LLM instead of the built-in demo packs:
+
+本地 Node API 可用知乎检索加大模型生成真实问题包（替代内置演示包）：
+
+```bash
+npm run api        # local API on 127.0.0.1:5201, then use 「在线重规划 / 在线生成」in the app
+npm run test:api   # API contract tests / 接口契约测试
+```
+
+The online path needs OpenCodex credentials on the machine (the key never enters the frontend or the repo); without them the app stays on local demo content and says so honestly. / 在线路径依赖本机 OpenCodex 凭据（密钥不进前端、不进仓库）；没有凭据时应用停留在本地演示内容，并如实提示。
+
+## Honest status / 如实说明
+
+- **What is real 已实现：** the complete five-step loop 提问到成形全流程可跑 · six islands with six distinct interactions 六岛六种专属交互 · Bloomy companion with its five states Bloomy 五态陪伴 · compare table and stance stickers 对照与态度贴纸 · localStorage resume 自动存档 · online pack generation + island re-planning behind a local API 本地 API 在线生成与重规划 · API contract tests 接口契约测试。
+- **What this demo is not 尚未实现：** it is not a validated teaching product — no learning outcomes have been measured 未做学习效果验证 · online generation currently requires the owner's local machine (no public server, no accounts, no multi-user community) 在线生成依赖本机服务，尚无公开服务端与多用户社区 · Zhihu sources are answer summaries, not full texts — reading and fact-checking the originals stays with the visitor 知乎来源是回答摘要而非全文，核查原文仍是来访者的功课 · Bloomy's chat is scripted locally when offline, not conversational LLM dialogue 离线时 Bloomy 的话术是本地规则脚本，不是大模型对话。
+
+## Roadmap / 接下来
+
+1. **Real content with provenance / 带来源的真实内容：** every card linked to the real answer and author behind it, so 遇见 connects to real people. / 每张卡连向真实的回答与答主，让遇见连向真实的人。
+2. **A conversational Bloomy / 会对话的 Bloomy：** explanations and comparisons generated from real retrieval, with natural-language dialogue. / 解释与比较由真实检索结果生成，支持自然语言对话。
+3. **Co-drawn universes / 共绘宇宙：** public maps that a community maintains together — a governance layer, so AI activates community instead of replacing it. / 多人共同维护的公共地图与社区治理层：让 AI 激活社区，而不是替代社区。
+
+## Where it sits / 项目定位
+
+Guiyi is the learner-experience exploration of [Learning Infrastructure](https://github.com/K-LIU2016/learning-infrastructure): where that project turns a learning difficulty into a designed, measurable intervention, Guiyi prototypes what the *learner's* side could feel like — an interface that rewards seeing difference instead of scoring recall.
+
+归一是 [Learning Infrastructure](https://github.com/K-LIU2016/learning-infrastructure) 的学习者端体验探索：那个项目把学习困难转化为可设计、可测量的干预；归一则试验学习者这一侧的体验——一个奖励「看见不同」而不是「刷回忆分数」的界面。
+
+## Discuss / 交流
+
+Questions, design critique, or ideas for the community layer — welcome via Issues. 玩过之后的一切想法与批评，都欢迎通过 Issues 交流。
